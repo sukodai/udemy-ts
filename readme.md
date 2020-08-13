@@ -13,7 +13,7 @@ clone 時の動きが違う。
 # branch を切る
 
 git checkout -b create-package-json
-git push -u origin HEAD
+git push -u origin HEAD  // ローカルで選択中のbranchと同名のgithub上のbranchにpushする。
 git checkout - // master に変わる
 git merge - // branch の内容を master に反映
 git push origin HEAD // github の master も更新する
@@ -52,3 +52,9 @@ ts-node-dev --respawn src/install-typescript.ts
 - よく使うコマンドは、package.json の script に登録すると以下のように実行できる。
 
 npm run dev src/install-typescript.ts
+
+
+# tsconfig.jsonファイルの作成
+tscコマンドで自動生成できる
+npx tsc --init
+
