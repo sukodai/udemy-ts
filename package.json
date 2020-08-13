@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sukodai/udemy-ts/issues"
   },
-  "homepage": "https://github.com/sukodai/udemy-ts#readme"
+  "homepage": "https://github.com/sukodai/udemy-ts#readme",
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
 }
