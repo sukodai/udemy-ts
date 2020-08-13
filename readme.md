@@ -58,3 +58,7 @@ npm run dev src/install-typescript.ts
 tscコマンドで自動生成できる
 npx tsc --init
 
+# ts-nodeのバージョンを変更する
+npm info ts-node versions
+npm uninstall ts-node --save-dev
+npm install ts-node@8.5.4 --save-dev
