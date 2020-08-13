@@ -1,0 +1,20 @@
+{
+  "name": "udemy-ts",
+  "version": "1.0.0",
+  "description": "gitignoreやreadmeを作るか、作らないかで、 リポジトリを作った後の、画面の表示が違う",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sukodai/udemy-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sukodai/udemy-ts/issues"
+  },
+  "homepage": "https://github.com/sukodai/udemy-ts#readme"
+}
